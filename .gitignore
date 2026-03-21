@@ -47,13 +47,4 @@ myproject - 副本.py
 # m_key_words directory
 m_key_words/
 
-# Build scripts (temporary)
-build_vocab.py
-debug_sklearn.py
-eval_baseline_simple.py
-final_report.py
-final_summary.py
-inspect_checkpoint.py
-quick_train.log
-reproduce_sklearn_baseline.py
-syncleibie.py
+

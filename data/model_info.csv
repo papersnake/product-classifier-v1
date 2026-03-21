@@ -1,0 +1,2 @@
+﻿model_name,file_path,accuracy,target_accuracy,difference,vocab_size,num_classes,max_seq_len,epochs_trained,creation_date
+textcnn_final,data/textcnn_final.pth,0.9336540896429476,0.9478,-0.014145910357052371,7464,246,11,2,2026-03-14 15:55:43
