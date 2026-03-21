@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+
+# ML Models (large binary files)
+*.pkl
+*.onnx
+*.pth
+*.npy
+
+# Logs
+*.log
+
+# Temporary/backup files
+myproject - 副本.py
+*.bak
+*.bak.*
+
+# Excel working file
+*.xlsm
+
+# m_key_words directory
+m_key_words/
+
+# Build scripts (temporary)
+build_vocab.py
+debug_sklearn.py
+eval_baseline_simple.py
+final_report.py
+final_summary.py
+inspect_checkpoint.py
+quick_train.log
+reproduce_sklearn_baseline.py
+syncleibie.py
