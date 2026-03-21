@@ -315,7 +315,7 @@ class TextCNNPredictor:
             cat_name = self.cat_mapping.loc[
                 self.cat_mapping['cat_id'] == cat_id, 'ClassName'
             ].values[0] if cat_id in self.cat_mapping['cat_id'].values else f"类别_{cat_id}"
-        except:
+        except Exception:
             cat_name = f"类别_{cat_id}"
         return cat_name
 
