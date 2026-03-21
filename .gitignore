@@ -47,4 +47,7 @@ myproject - 副本.py
 # m_key_words directory
 m_key_words/
 
+# FastText model directory
+data/fasttext_model/
+
 
