@@ -2,8 +2,8 @@
 Author: papersnake cctv5cn@gmail.com
 Date: 2026-03-14 16:10:00
 LastEditors: papersnake cctv5cn@gmail.com
-LastEditTime: 2026-03-20 14:36:46
-FilePath: \myproject\text_cnn.py
+LastEditTime: 2026-03-22 14:44:11
+FilePath: \\myproject\\text_cnn.py
 Description: TextCNN模型架构定义
 
 Copyright (c) 2026 by papersnake, All Rights Reserved. 
@@ -88,7 +88,7 @@ class TextCNN(nn.Module):
         # 初始化权重
         self._init_weights()
 
-        print(f"TextCNN模型初始化完成:")
+        print("TextCNN模型初始化完成:")
         print(f"  - 词汇表大小: {vocab_size}")
         print(f"  - 嵌入维度: {embedding_dim}")
         print(f"  - 类别数量: {num_classes}")
