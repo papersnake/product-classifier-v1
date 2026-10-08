@@ -146,6 +146,10 @@ def get_pytorch_predictor():
     if not PYTORCH_AVAILABLE:
         raise ImportError("PyTorch预测器不可用，请确保已安装PyTorch和相关依赖")
 
+    # 加载模型文件名
+    model_name = "textcnn_final.pth"
+    # model_name = "textcnn_optimized_gpu.pth"    # gpu版本
+
     # 确保TextCNNPredictor已导入
     assert TextCNNPredictor is not None, "TextCNNPredictor未正确导入"
 
@@ -154,7 +158,7 @@ def get_pytorch_predictor():
             # 使用与PyTorch训练一致的类别映射
             model_dir = os.path.join(os.path.dirname(__file__), "data")
             _pytorch_predictor = TextCNNPredictor(
-                model_path=os.path.join(model_dir, "textcnn_final.pth"),
+                model_path=os.path.join(model_dir, model_name),
                 vocab_path=os.path.join(model_dir, "vocab.pkl"),
                 embedding_matrix_path=os.path.join(
                     model_dir, "embedding_matrix.npy"),
